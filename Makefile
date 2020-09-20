@@ -1,5 +1,5 @@
 BIN = snake
-SRC = program.c snake.c play.c grid.c apple.c
+SRC = src/program.c src/snake.c src/play.c src/grid.c src/apple.c
 
 $(BIN): $(SRC)
 	gcc $(SRC) -o $(BIN) -Wall -W -ansi -Werror -lSDL -lSDL_image -lSDL_ttf
