@@ -1,4 +1,4 @@
-BIN = snake
+BIN = snake.exe
 SRC = src/program.c src/snake.c src/play.c src/grid.c src/apple.c
 
 $(BIN): $(SRC)
